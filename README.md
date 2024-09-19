@@ -1,4 +1,4 @@
-# An AI Case on Sensity AI 
+# An AI Case Study on Sensity AI 
 
 <details>
 <summary>Document purpose</summary>

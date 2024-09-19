@@ -2,8 +2,8 @@
 
 <details>
 <summary>Document purpose</summary>
-This is a markdown academic assignment. The main goal is to learn more about creating GitHub README.md documents. It was recommended that we create content that is significantly more succint than a typical case study given the main goal. The below represents those goals and recommendations.
-With that said, the below company selection reflects my genunine interest in deepfake detection.
+This is a markdown academic assignment. The main goal is to learn more about creating GitHub README.md documents. It was recommended that we create content that is significantly more succint than a typical case study given the main goal. The below represents that goal and recommendation.
+With that said, the below company selection reflects smy genunine interest in deepfake detection.
 </details>
 
 ## Overview and Origin
@@ -49,7 +49,7 @@ With that said, the below company selection reflects my genunine interest in dee
 
 * What specific problem is the company or project trying to solve?
 
-    Sensity is a cybersecurity company that aims to help entities detect and combat deepfake videos, audio and images.
+    Sensity is a cybersecurity company that aims to help entities detect and combat deepfake videos, audio and images. 
 
 * Who is the company's intended customer? Is there any information about the market size of this set of customers?
     
@@ -59,38 +59,42 @@ With that said, the below company selection reflects my genunine interest in dee
 [^5]: Source: [Markets and Markets](https://www.marketsandmarkets.com/Market-Reports/deepfake-ai-market-256823035.html)
 
 * What solution does this company offer that their competitors do not or cannot offer? (What is the unfair advantage they utilize?)
+   
     Their differentiator is that they offer more comprehensive deepfake detection tooling.
     They are reported to be first deep fake detection tool made available in the market. [^6]
 
 [^6]: Source: [Forbes - Deepfakes: The Danger of Artificial Intelligence](https://www.forbes.com/sites/lutzfinger/2022/09/08/deepfakesthe-danger-of-artificial-intelligence-that-we-will-learn-to-manage-better/)
 
 * Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing&mdash;you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
-This is has been difficult to clearly determine. They do not provide technology details to individuals.
 
- I have found sources that may allude to what their offerings  may use.
+    This is has been difficult to clearly determine. They do not provide many technology details to individuals.
 
-1. They may be running on AWS, at least in part, because they appear in the AWS Marketplace (but with no details) and they need access to significant amount of compute and are therefore likely reliant one of the major cloud providers.
-1. . In github they offer a deepfake generation tool to use for testing called the Deepfake Offensive toolkit. That repository uses, [Python](https://www.python.org), [Cuda](https://developer.nvidia.com/cuda-toolkit) and [Jupyter Notebook](https://jupyter.org). [^7]
+    I have found sources that may allude to what their products  may use.
 
-[^7]: Source: https://github.com/sensity-ai/dot
+    1. They may be running on AWS, at least in part, because they appear in the AWS Marketplace (but with no details) and they need  significant compute power and are therefore likely reliant one of the major cloud providers.
+    1. . In github they offer a deepfake generation tool to use for testing called the Deepfake Offensive Toolkit. That repository uses, [Python](https://www.python.org), [Cuda](https://developer.nvidia.com/cuda-toolkit) and [Jupyter Notebook](https://jupyter.org). [^7]
+
+    [^7]: Source: [GitHub - Sentity AI Dot Repo](https://github.com/sensity-ai/dot)
 
 ## Landscape
 
 * What field is the company in?
-    It is a cybersecurity technology company that serves political entities and businesses in a variety of industries including but not limited to finance, education and entertainment.
+
+    It is a cybersecurity technology company that serves government entities and businesses in a variety of industries including but not limited to finance, education and entertainment.
 
 * What have been the major trends and innovations of this field over the last 5&ndash;10 years?
-Recent advances in the ability and access to generative AI has cause a sharp increase in the threat of nefarious deepfakes.
+
+    Recent advances in the ability and access to generative AI has caused a sharp increase in the threat of nefarious deepfakes.
 
 * What are the other major companies in this field?
 
-    * Intel
-    * Google
-    * Microsoft
-    * OpenAI
-    * Sentinel
-    * Deepware
-    * BioID 
+    * [BioID](https://www.bioid.com/deepfake-detection/)
+    * [Deepware](https://deepware.ai)
+    * [Google](https://deepmind.google/technologies/synthid/)
+    * [Intel](https://www.intel.com/content/www/us/en/research/trusted-media-deepfake-detection.html)
+    * [Microsoft](https://blogs.microsoft.com/on-the-issues/2020/09/01/disinformation-deepfakes-newsguard-video-authenticator/)
+    * [OpenAI](https://www.nytimes.com/2024/05/07/technology/openai-deepfake-detector.html)
+    * [Sentinel](https://thesentinel.ai)
 
 
 ## Results
@@ -99,10 +103,11 @@ Recent advances in the ability and access to generative AI has cause a sharp inc
 
     Sensity has successfully detected over 44,000 deepfakes as of February 2024. [^8]
 
-[^8]: Source: https://www.iamsterdam.com/en/business/key-sectors-for-business/artificial-intelligence/stories/sensity
+[^8]: Source: [I Amsterdam - Business section](https://www.iamsterdam.com/en/business/key-sectors-for-business/artificial-intelligence/stories/sensity)
 
 * What are some of the core metrics that companies in this field use to measure success? How is your company performing based on these metrics?
-    * One key metric is detection rate. Sensity has been reported to have a detection rate of 95%. [^9]
+    
+    One key metric is detection rate. Sensity has been reported to have a detection rate of 95%. [^9]
 
     [^9]: Source: [LinkedIn Deepfake Detection: Accuracy of Commercial Tools](https://www.linkedin.com/pulse/deepfake-detection-accuracy-commercial-tools-konstantin-simonchik-u0z3e#:~:text=Sensity.ai%20is%20reported%20to,of%20image%20and%20video%20manipulations)
     
@@ -121,10 +126,13 @@ Recent advances in the ability and access to generative AI has cause a sharp inc
     Once it is financially and technically viable, I would suggest that they create a publicly available site where individuals can verify whether or not the media they are consuming is a fake.
 
 * Why do you think that offering this product or service would benefit the company?
-If done via government funding, it introduces a steady income stream that is likely to increase over time. There is also the altruistic benefit of being an accessible deterernt to 
+
+    If done via government funding, it introduces a steady income stream that is likely to increase over time. There is also the altruistic benefit of being an accessible way to nullify the goals of harmful fake content.
 
 * What technologies would this additional product or service utilize?
-I am not sure. However, certain jurisdictions may mandate that the infrastructure reside within in that jurisdiction. For example, all cloud compute and storage instances may need to reside in country X and be fully supported by its citizens.
+
+    I am not sure. However, certain jurisdictions may mandate that the infrastructure reside within in that jurisdiction. For example, all cloud compute and storage instances may need to reside in country X and be fully supported by its citizens.
 
 * Why are these technologies appropriate for your solution?
-It aligns with existing regulations in locales such as the EU, Switzerland and Singapore, to name a few.
+
+    It aligns with existing regulations in locales such as the EU, Switzerland and Singapore, to name a few.
